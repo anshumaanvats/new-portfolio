@@ -1,6 +1,6 @@
 'use client';
 
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, Variants } from 'framer-motion';
 import { useModal } from '@/context/ModalContext';
 import { X } from 'lucide-react';
 import { useEffect, useState } from 'react';
@@ -26,7 +26,7 @@ export default function GenieModal() {
     deltaY = originY - windowCenter.y;
   }
 
-  const genieVariants = {
+  const genieVariants: Variants = {
     hidden: {
       x: deltaX,
       y: deltaY,
