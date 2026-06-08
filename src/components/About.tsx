@@ -6,7 +6,7 @@ import StreaksBackground from "./StreaksBackground";
 
 export default function About() {
   return (
-    <section id="about" className="relative z-20 bg-[#050505] py-24 px-6 md:px-12 lg:px-24 overflow-hidden">
+    <section id="about" className="relative z-20 bg-transparent py-24 px-6 md:px-12 lg:px-24 overflow-hidden">
       <StreaksBackground />
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-16 relative z-10">
 

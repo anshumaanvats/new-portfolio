@@ -33,22 +33,16 @@ export default function Contact() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/assets/back.png" alt="Back" className="w-full h-full object-cover" />
               <a
-                href="tel:+919996945185"
-                className="absolute top-10 left-0 w-full h-1/3 z-10"
-                style={{ display: 'block' }}
-                aria-label="Call me"
-              ></a>
-              <a
                 href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent("Bengaluru, Karnataka")}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="absolute top-1/3 left-0 w-full h-1/3 z-10"
+                className="absolute top-0 left-0 w-full h-1/2 z-10"
                 style={{ display: 'block' }}
                 aria-label="View Location"
               ></a>
               <a
                 href="mailto:anshumaanvats17@gmail.com"
-                className="absolute top-2/3 left-0 w-full h-1/3 z-10"
+                className="absolute top-1/2 left-0 w-full h-1/2 z-10"
                 style={{ display: 'block' }}
                 aria-label="Email me"
               ></a>

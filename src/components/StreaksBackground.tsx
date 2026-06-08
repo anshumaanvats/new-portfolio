@@ -15,7 +15,7 @@ export default function StreaksBackground() {
   ];
 
   return (
-    <div className="absolute inset-0 overflow-hidden pointer-events-none z-0 bg-[#050505]">
+    <div className="absolute inset-0 overflow-hidden pointer-events-none z-0 bg-transparent">
       {/* Soft Ambient Glow */}
       <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-orange-600/10 rounded-full blur-[120px]" />
       <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-cyan-600/10 rounded-full blur-[100px]" />

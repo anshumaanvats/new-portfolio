@@ -15,7 +15,7 @@ import Achievements from "@/components/Achievements";
 import Contact from "@/components/Contact";
 import { ModalProvider } from "@/context/ModalContext";
 import GenieModal from "@/components/GenieModal";
-
+import GoUpButton from "@/components/GoUpButton";
 export default function Home() {
   const containerRef = useRef<HTMLDivElement>(null);
   
@@ -106,6 +106,7 @@ export default function Home() {
         </footer>
       </div>
       
+      <GoUpButton />
       <GenieModal />
       </main>
     </ModalProvider>
